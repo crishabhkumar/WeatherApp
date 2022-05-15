@@ -93,7 +93,7 @@ class MainActivity : AppCompatActivity() {
         txtDegree.text = "Degree: ${deg}"
 
         //setting up the gust value
-        txtGust.text = "Gust: " + response?.getJSONObject("wind")?.getString("gust")
+//        txtGust.text = "Gust: " + response?.getJSONObject("wind")?.getString("gust")
 
 
     }
