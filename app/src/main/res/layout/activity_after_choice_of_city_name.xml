@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/demo"
     android:padding="10dp"
-    tools:context=".MainActivity">
+    tools:context=".ChoiceCityName">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,7 +30,7 @@
                 android:padding="5dp">
 
                 <TextView
-                    android:id="@+id/txtCityName"
+                    android:id="@+id/txtCityNameCity"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
@@ -40,7 +40,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/txtCordinates"
+                    android:id="@+id/txtCordinatesCity"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -69,7 +69,7 @@
                     app:cardElevation="5dp">
 
                     <TextView
-                        android:id="@+id/txtWeather"
+                        android:id="@+id/txtWeatherCity"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:padding="20dp"
@@ -95,7 +95,7 @@
                         android:padding="5dp">
 
                         <TextView
-                            android:id="@+id/txtTemperature"
+                            android:id="@+id/txtTemperatureCity"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:padding="10dp"
@@ -105,7 +105,7 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/txtTempMinMax"
+                            android:id="@+id/txtTempMinMaxCity"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
@@ -142,7 +142,7 @@
                         android:padding="5dp">
 
                         <TextView
-                            android:id="@+id/txtPressure"
+                            android:id="@+id/txtPressureCity"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:padding="10dp"
@@ -152,7 +152,7 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/txtPressureText"
+                            android:id="@+id/txtPressureTextCity"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
@@ -177,7 +177,7 @@
                         android:padding="5dp">
 
                         <TextView
-                            android:id="@+id/txtHumidity"
+                            android:id="@+id/txtHumidityCity"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:padding="10dp"
@@ -187,7 +187,7 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/txtHumidityText"
+                            android:id="@+id/txtHumidityTextCity"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
@@ -214,7 +214,7 @@
                 android:padding="5dp">
 
                 <TextView
-                    android:id="@+id/txtWindSpeed"
+                    android:id="@+id/txtWindSpeedCity"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
@@ -229,7 +229,7 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/txtWindSpeedText"
+                        android:id="@+id/txtWindSpeedTextCity"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -237,7 +237,7 @@
                         android:textColor="@color/black" />
 
                     <TextView
-                        android:id="@+id/txtDegree"
+                        android:id="@+id/txtDegreeCity"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"

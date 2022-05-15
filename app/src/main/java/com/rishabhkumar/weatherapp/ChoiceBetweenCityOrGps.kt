@@ -17,7 +17,7 @@ import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import com.google.android.gms.location.*
 
-class choice_selection : AppCompatActivity() {
+class ChoiceBetweenCityOrGps : AppCompatActivity() {
     lateinit var mfusedlocation : FusedLocationProviderClient
     private var myRequestCode = 1010
 
@@ -40,9 +40,11 @@ class choice_selection : AppCompatActivity() {
         }
 
 
-//        btnWithCityName.setOnClickListener{
-//            Toast.makeText(this,"You entered " + edtCity.text.toString(), Toast.LENGTH_LONG).show()
-//        }
+        btnWithCityName.setOnClickListener{
+            val intent = Intent(this,ChoiceCityName::class.java)
+            intent.putExtra("cityName",edtCity.text.toString())
+            startActivity(intent)
+        }
 
 
 

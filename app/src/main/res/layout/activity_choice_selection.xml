@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/app_background_color"
     android:orientation="vertical"
-    tools:context=".choice_selection">
+    tools:context=".ChoiceBetweenCityOrGps">
 
     <Button
         android:id="@+id/btnGPS"

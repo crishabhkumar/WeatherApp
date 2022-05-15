@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/WeatherApp/app/src/main/res/layout/activity_after_choice_of_city_name.xml" value="0.23645833333333333" />
         <entry key="..\:/WeatherApp/app/src/main/res/layout/activity_choice_selection.xml" value="0.25052083333333336" />
         <entry key="..\:/WeatherApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/WeatherApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />

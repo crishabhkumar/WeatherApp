@@ -19,13 +19,15 @@
         android:theme="@style/Theme.WeatherApp"
         tools:targetApi="31">
         <activity
-            android:name=".choice_selection"
+            android:name=".ChoiceCityName"
             android:exported="true"
-            android:theme="@style/Theme.MyTheme">
-
-        </activity>
+            android:theme="@style/Theme.MyTheme"/>
         <activity
-            android:name=".splash_screen"
+            android:name=".ChoiceBetweenCityOrGps"
+            android:exported="true"
+            android:theme="@style/Theme.MyTheme"/>
+        <activity
+            android:name=".SplashScreen"
             android:exported="true"
             android:theme="@style/Theme.MyTheme">
             <intent-filter>
